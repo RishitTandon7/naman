@@ -1,0 +1,28 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Ensuring consistent font size, padding, and margin */
+body {
+  font-family: 'Poppins', sans-serif; /* Ensure Poppins font is applied globally */
+  font-size: 1rem; /* Consistent font size */
+  line-height: 1.5; /* Ensure consistent line height */
+}
+
+/* fallback scrollbar for browsers without custom component */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #024a71 #0f172b;
+}
+
+
