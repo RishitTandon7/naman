@@ -118,3 +118,4 @@ input[type="range"]::-moz-range-thumb {
 input[type="range"]:hover::-webkit-slider-thumb {
   box-shadow: 0 0 15px rgba(99, 102, 241, 0.8);
 }
+
