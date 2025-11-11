@@ -28,7 +28,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));         // use configured cors
-app.options("*", cors(corsOptions)); // preflight for all routes
+app.options("/*", cors(corsOptions)); // preflight for all routes
 
 // A fallback middleware to always set headers (helps when some adapter swallows the cors middleware)
 app.use((req, res, next) => {
